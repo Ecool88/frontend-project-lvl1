@@ -8,3 +8,5 @@
 [Запись примера для brain-calc ](https://asciinema.org/a/kYjgdxBYLq4m4BTp640bANsEf)
 
 [Запись примера для brain-gcd ](https://asciinema.org/a/Wx50QVLOgTx6vM7CgieJUFDSt)
+
+[Запись примера для brain-gcd ](https://asciinema.org/a/c6HxPch2HHo18M4HhP3p6UfIZ)
