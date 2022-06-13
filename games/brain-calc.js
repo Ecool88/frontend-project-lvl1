@@ -1,4 +1,4 @@
-import { randomIntFromInterval } from '../src/utils.js';
+import randomIntFromInterval from '../src/utils.js';
 import mainLogicForGames from '../src/index.js';
 
 const taskDescription = 'What is the result of the expression?';
