@@ -1,7 +1,11 @@
-import { isEvenNumber, randomIntFromInterval } from '../src/utils.js';
+import randomIntFromInterval from '../src/utils.js';
 import mainLogicForGames from '../src/index.js';
 
 const taskDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+function isEvenNumber(num) {
+  return num % 2 === 0;
+}
 
 function createResultsForBrainEven() {
   const randomNumber = randomIntFromInterval(1, 100);

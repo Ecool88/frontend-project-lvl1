@@ -9,4 +9,6 @@
 
 [Запись примера для brain-gcd ](https://asciinema.org/a/Wx50QVLOgTx6vM7CgieJUFDSt)
 
-[Запись примера для brain-gcd ](https://asciinema.org/a/c6HxPch2HHo18M4HhP3p6UfIZ)
+[Запись примера для brain-progression ](https://asciinema.org/a/c6HxPch2HHo18M4HhP3p6UfIZ)
+
+[Запись примера для brain-prime ](https://asciinema.org/a/6JfeJiHsNI8pZvo7uhZtiboRM)
