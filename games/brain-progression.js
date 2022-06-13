@@ -10,7 +10,7 @@ function createResultsForBrainProgression() {
   const beginningProgressions = randomIntFromInterval(1, 100);
   const constantNumber = randomIntFromInterval(1, 10);
   const progression = [];
-  for (let i = 0; i < progressionLength; i++) {
+  for (let i = 0; i < progressionLength; i += 1) {
     progression.push(beginningProgressions + constantNumber * i);
   }
   const question = `${progression.slice(0, hiddenPosition).join(' ')} .. ${progression.slice(hiddenPosition + 1, progressionLength).join(' ')}`;

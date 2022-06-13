@@ -5,7 +5,7 @@ export default function mainLogicForGames(taskDescription, createResults) {
   const userName = greeting();
   // описание задачи
   console.log(taskDescription);
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i += 1) {
     const { question, rightAnswer } = createResults();
     // вопрос
     console.log(`Question: ${question}`);
