@@ -6,3 +6,5 @@
 [Запись примера для brain-even ](https://asciinema.org/a/m4XR9W4AkoUOc9TNm2rXX3I5b)
 
 [Запись примера для brain-calc ](https://asciinema.org/a/kYjgdxBYLq4m4BTp640bANsEf)
+
+[Запись примера для brain-gcd ](https://asciinema.org/a/Wx50QVLOgTx6vM7CgieJUFDSt)
