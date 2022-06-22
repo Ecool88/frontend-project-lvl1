@@ -1,7 +1,7 @@
-import randomIntFromInterval from '../src/utils.js';
-import mainLogicForGames from '../src/index.js';
+import createRandomIntegerFromInterval from '../utils.js';
+import runGame from '../index.js';
 
-const taskDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 function isPrime(num) {
   const max = Math.sqrt(num);
@@ -14,11 +14,11 @@ function isPrime(num) {
 }
 
 function createResultsForBrainPrime() {
-  const randomNumber = randomIntFromInterval(1, 100);
+  const randomNumber = createRandomIntegerFromInterval(1, 100);
   const rightAnswer = isPrime(randomNumber) ? 'yes' : 'no';
   return { question: randomNumber, rightAnswer };
 }
 
 export default function brainPrime() {
-  mainLogicForGames(taskDescription, createResultsForBrainPrime);
+  runGame(gameDescription, createResultsForBrainPrime);
 }

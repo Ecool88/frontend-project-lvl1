@@ -3,25 +3,43 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
+# Название проекта
 
-##Описание проекта
+#### Игры разума (консольные игры)
+
+## Описание проекта
 
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
 
-Калькулятор. Арифметические выражения, которые необходимо вычислить.
-- Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-- Определение четного числа.
-- Определение наибольшего общего делителя.
-- Определение простого числа.
 
-Для установки зависимостей после кланирования репозитория используйте команду: make install
+## Список игр
 
-Для игры brain-even используйте команду: make brain-even [Запись примера для brain-even ](https://asciinema.org/a/m4XR9W4AkoUOc9TNm2rXX3I5b)
+1. brain-even - определение четного числа.
+2. brain-calc - вычисление суммы простых выражений.
+3. brain-gcd - определение наибольшего общего делителя.
+4. brain-prime - определение простого числа.
+5. brain-progression - поиск пропущенных чисел в последовательности чисел.
 
-Для игры brain-calc используйте команду: make brain-calc [Запись примера для brain-calc ](https://asciinema.org/a/kYjgdxBYLq4m4BTp640bANsEf)
 
-Для игры brain-gcd используйте команду: make brain-gcd [Запись примера для brain-gcd ](https://asciinema.org/a/Wx50QVLOgTx6vM7CgieJUFDSt)
+### Установка
 
-Для игры brain-progression используйте команду: make brain-progression [Запись примера для brain-progression ](https://asciinema.org/a/c6HxPch2HHo18M4HhP3p6UfIZ)
+Для установки и запуска игры необходимо наличие Node.js и утилиты make. Далее:
+1. Скопировать все файлы программы в директорию (сделать git clone); 
+2. Далее, находясь в директории:
+ - Запустить команду make install;
+ - Запустить команду make publish;
+ - Запустить команду npm link;
+ - Для запуска необходимой игры введите необходимую команду (см. описание проекта).
 
-Для игры brain-prime используйте команду: make brain-prime [Запись примера для brain-prime ](https://asciinema.org/a/6JfeJiHsNI8pZvo7uhZtiboRM)
+### Примеры игр
+
+brain-calc
+[![asciicast](https://asciinema.org/a/kYjgdxBYLq4m4BTp640bANsEf.svg)](https://asciinema.org/a/kYjgdxBYLq4m4BTp640bANsEf)
+brain-gcd
+[![asciicast](https://asciinema.org/a/Wx50QVLOgTx6vM7CgieJUFDSt.svg)](https://asciinema.org/a/Wx50QVLOgTx6vM7CgieJUFDSt)
+brain-progression
+[![asciicast](https://asciinema.org/a/c6HxPch2HHo18M4HhP3p6UfIZ.svg)](https://asciinema.org/a/c6HxPch2HHo18M4HhP3p6UfIZ)
+brain-prime
+[![asciicast](https://asciinema.org/a/6JfeJiHsNI8pZvo7uhZtiboRM.svg)](https://asciinema.org/a/6JfeJiHsNI8pZvo7uhZtiboRM)
+brain-even
+[![asciicast](https://asciinema.org/a/m4XR9W4AkoUOc9TNm2rXX3I5b.svg)](https://asciinema.org/a/m4XR9W4AkoUOc9TNm2rXX3I5b)

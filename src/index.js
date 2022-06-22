@@ -1,16 +1,15 @@
 import readlineSync from 'readline-sync';
 import greeting from './cli.js';
 
-export default function mainLogicForGames(taskDescription, createResults) {
+const numberOfRounds = 3;
+
+export default function runGame(gameDescription, createResults) {
   const userName = greeting();
-  // описание задачи
-  console.log(taskDescription);
-  for (let i = 0; i < 3; i += 1) {
+  console.log(gameDescription);
+  for (let i = 0; i < numberOfRounds; i += 1) {
     const { question, rightAnswer } = createResults();
-    // вопрос
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    // проверка правильности ответа
     if (userAnswer === rightAnswer) {
       console.log('Correct!');
     } else {
