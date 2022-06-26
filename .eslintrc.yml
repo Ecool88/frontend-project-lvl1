@@ -13,3 +13,4 @@ rules:
     - ignorePackages
     - js: always
   no-plusplus: ["error", { "allowForLoopAfterthoughts": true }]
+  max-len: ["error", { "code": 120 }]
