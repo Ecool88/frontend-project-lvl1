@@ -13,7 +13,7 @@ function createArithmeticProgression(beginningProgressions, constantNumber, prog
 
 function createResultsForBrainProgression() {
   const progressionLength = createRandomIntegerFromInterval(5, 10);
-  const hiddenPosition = createRandomIntegerFromInterval(0, progressionLength - 1);
+  const hiddenPosition = createRandomIntegerFromInterval(1, progressionLength - 1);
   const beginningProgressions = createRandomIntegerFromInterval(1, 100);
   const constantNumber = createRandomIntegerFromInterval(1, 10);
   const progression = createArithmeticProgression(beginningProgressions, constantNumber, progressionLength);
