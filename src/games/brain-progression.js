@@ -16,7 +16,11 @@ function createResultsForBrainProgression() {
   const hiddenPosition = createRandomIntegerFromInterval(1, progressionLength - 1);
   const beginningProgressions = createRandomIntegerFromInterval(1, 100);
   const constantNumber = createRandomIntegerFromInterval(1, 10);
-  const progression = createArithmeticProgression(beginningProgressions, constantNumber, progressionLength);
+  const progression = createArithmeticProgression(
+    beginningProgressions,
+    constantNumber,
+    progressionLength,
+  );
   const rightAnswer = progression[hiddenPosition];
   progression.splice(hiddenPosition, 1, '..');
   const question = progression.join(' ');
